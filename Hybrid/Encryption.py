@@ -20,7 +20,7 @@ def rsa_encrypt(message):
 
     return ciphertext
 
-message = "jsonBody"
+message = "mohammed050"
 key="aaaaaa5DA156D24a"
 encrypted = rsa_encrypt(key)
 print("EncryptedKey:",encrypted.decode('ascii'))
